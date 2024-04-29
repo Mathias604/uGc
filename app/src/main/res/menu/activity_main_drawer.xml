@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_zenelejatszo"
+            android:icon="@drawable/ic_menu_zenelejatszo"
+            android:title="@string/menu_zenelejatszo" />
+        <item
+            android:id="@+id/nav_kepek"
+            android:icon="@drawable/ic_menu_kepek"
+            android:title="@string/menu_kepek" />
+        <item
+            android:id="@+id/nav_videok"
+            android:icon="@drawable/ic_menu_videok"
+            android:title="@string/menu_videok" />
+
+        <item
+            android:id="@+id/nav_eventek"
+            android:icon="@drawable/ic_menu_eventek"
+            android:title="@string/menu_eventek" />
+
+        <item
+            android:id="@+id/nav_emberek"
+            android:icon="@drawable/ic_menu_emberek"
+            android:title="@string/menu_emberek" />
+
+        <item
+            android:id="@+id/nav_bolt"
+            android:icon="@drawable/ic_menu_bolt"
+            android:title="@string/menu_bolt" />
+
+        <item
+            android:id="@+id/nav_terkep"
+            android:icon="@drawable/ic_menu_terkep"
+            android:title="@string/menu_terkep" />
+
+        <item
+            android:id="@+id/nav_fesztmode"
+            android:icon="@drawable/ic_menu_fesztmode"
+            android:title="@string/menu_fesztmode" />
+
+        <item
+            android:id="@+id/nav_beallitasok"
+            android:icon="@drawable/ic_menu_beallitasok"
+            android:title="@string/menu_beallitasok" />
+    </group>
+</menu>

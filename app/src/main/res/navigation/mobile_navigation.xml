@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_zenelejatszo">
+
+    <fragment
+        android:id="@+id/nav_zenelejatszo"
+        android:name="com.ugc.ui.zenelejatszo.ZenelejatszoFragment"
+        android:label="@string/menu_zenelejatszo"
+        tools:layout="@layout/fragment_zenelejatszo" />
+
+    <fragment
+        android:id="@+id/nav_kepek"
+        android:name="com.ugc.ui.kepek.KepekFragment"
+        android:label="@string/menu_kepek"
+        tools:layout="@layout/fragment_kepek" />
+
+    <fragment
+        android:id="@+id/nav_videok"
+        android:name="com.ugc.ui.videok.VideokFragment"
+        android:label="@string/menu_videok"
+        tools:layout="@layout/fragment_videok" />
+
+    <fragment
+        android:id="@+id/nav_eventek"
+        android:name="com.ugc.ui.eventek.EventekFragment"
+        android:label="@string/menu_eventek"
+        tools:layout="@layout/fragment_eventek" />
+
+    <fragment
+        android:id="@+id/nav_emberek"
+        android:name="com.ugc.ui.emberek.EmberekFragment"
+        android:label="@string/menu_emberek"
+        tools:layout="@layout/fragment_emberek" />
+
+    <fragment
+        android:id="@+id/nav_bolt"
+        android:name="com.ugc.ui.bolt.BoltFragment"
+        android:label="@string/menu_bolt"
+        tools:layout="@layout/fragment_bolt" />
+
+    <fragment
+        android:id="@+id/nav_terkep"
+        android:name="com.ugc.ui.terkep.TerkepFragment"
+        android:label="@string/menu_terkep"
+        tools:layout="@layout/fragment_terkep" />
+
+    <fragment
+        android:id="@+id/nav_fesztmode"
+        android:name="com.ugc.ui.fesztmode.FesztmodeFragment"
+        android:label="@string/menu_fesztmode"
+        tools:layout="@layout/fragment_fesztmode" />
+
+    <fragment
+        android:id="@+id/nav_beallitasok"
+        android:name="com.ugc.ui.beallitasok.BeallitasokFragment"
+        android:label="@string/menu_beallitasok"
+        tools:layout="@layout/fragment_beallitasok" />
+</navigation>

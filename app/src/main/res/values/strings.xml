@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">uGc</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Örök-Körök :))</string>
+    <string name="nav_header_subtitle">lampertmatyas@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_zenelejatszo">Zenelejátszó</string>
+    <string name="menu_kepek">Képek</string>
+    <string name="menu_videok">Videók</string>
+    <string name="menu_eventek">Eventek</string>
+    <string name="menu_emberek">Emberek</string>
+    <string name="menu_bolt">Bolt</string>
+    <string name="menu_terkep">Térkép</string>
+    <string name="menu_fesztmode">Fesztivál Mód</string>
+    <string name="menu_beallitasok">Beállítások</string>
+</resources>
